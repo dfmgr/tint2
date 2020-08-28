@@ -2,29 +2,46 @@
   
 A simple, unobtrusive and light panel for Xorg  
   
-requires:    
-```
-apt install tint2
-```  
-```
-yum install tint2
-```  
-```
-pacman -S tint2
-```  
-  
 Automatic install/update:
-```
+
+```shell
 bash -c "$(curl -LSs https://github.com/dfmgr/tint2/raw/master/install.sh)"
 ```
+
 Manual install:
+  
+requires:
+
+Debian based:
+
+```shell
+apt install tint2
+```  
+
+Fedora Based:
+
+```shell
+yum install tint2
+```  
+
+Arch Based:
+
+```shell
+pacman -S tint2
+```  
+
+MacOS:  
+
+```shell
+brew install
 ```
+  
+```shell
 mv -fv "$HOME/.config/tint2" "$HOME/.config/tint2.bak"
 git clone https://github.com/dfmgr/tint2 "$HOME/.config/tint2"
 ```
   
-  
 <p align=center>
-  <a href="https://wiki.archlinux.org/index.php/tint2" target="_blank">tint2 wiki</a>  |  
-  <a href="https://gitlab.com/o9000/tint2" target="_blank">tint2 site</a>
+  <a href="https://wiki.archlinux.org/index.php/tint2" target="_blank" rel="noopener noreferrer">tint2 wiki</a>  |  
+  <a href="tint2" target="_blank" rel="noopener noreferrer">tint2 site</a>
 </p>  
