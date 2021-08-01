@@ -5,7 +5,7 @@ A simple, unobtrusive and light panel for Xorg
 Automatic install/update:
 
 ```shell
-bash -c "$(curl -LSs https://github.com/dfmgr/tint2/raw/master/install.sh)"
+bash -c "$(curl -LSs https://github.com/dfmgr/tint2/raw/main/install.sh)"
 ```
 
 Manual install:
