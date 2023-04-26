@@ -1,20 +1,36 @@
-# See https://gitlab.com/o9000/tint2/wikis/Configure for
-# full documentation of the configuration options.
+# https://gitlab.com/o9000/tint2/wikis/Configure
 #-------------------------------------
 # Backgrounds
-# Background 1: Active taskbar, Battery, Clock, Launcher, Systray, Tooltip
+gradient = vertical
+start_color = #44475a 100
+end_color = #44475a 100
+
+# Gradient 2
+gradient = vertical
+start_color = #bd93f9 100
+end_color = #bd93f9 100
+
+#-------------------------------------
+# Backgrounds
+# Background 1: Active taskbar, Battery, Clock, Default task, Launcher, Launcher icon, Systray, Tooltip
 rounded = 0
 border_width = 0
-background_color = #242424 100
+border_sides = TBLR
+border_content_tint_weight = 0
+background_content_tint_weight = 0
+background_color = #282a36 100
 border_color = #222222 0
 background_color_hover = #000000 80
 border_color_hover = #000000 0
 background_color_pressed = #000000 80
 border_color_pressed = #000000 0
 
-# Background 2: Active task
+# Background 2: 
 rounded = 0
 border_width = 0
+border_sides = TBLR
+border_content_tint_weight = 0
+background_content_tint_weight = 0
 background_color = #109567 100
 border_color = #272727 0
 background_color_hover = #272727 70
@@ -22,9 +38,12 @@ border_color_hover = #272727 0
 background_color_pressed = #272727 70
 border_color_pressed = #272727 0
 
-# Background 3: Urgent task
+# Background 3: 
 rounded = 0
 border_width = 0
+border_sides = TBLR
+border_content_tint_weight = 0
+background_content_tint_weight = 0
 background_color = #d98282 60
 border_color = #d98282 0
 background_color_hover = #d98282 60
@@ -32,9 +51,12 @@ border_color_hover = #d98282 0
 background_color_pressed = #d98282 60
 border_color_pressed = #d98282 0
 
-# Background 4: Default task
+# Background 4: 
 rounded = 0
 border_width = 0
+border_sides = TBLR
+border_content_tint_weight = 0
+background_content_tint_weight = 0
 background_color = #242424 100
 border_color = #242424 0
 background_color_hover = #242424 60
@@ -45,12 +67,45 @@ border_color_pressed = #242424 0
 # Background 5: Iconified task
 rounded = 0
 border_width = 0
+border_sides = TBLR
+border_content_tint_weight = 0
+background_content_tint_weight = 0
 background_color = #252525 60
 border_color = #252525 0
 background_color_hover = #252525 60
 border_color_hover = #252525 0
 background_color_pressed = #252525 60
 border_color_pressed = #252525 0
+
+# Background 6: Active task, Inactive taskbar
+rounded = 0
+border_width = 0
+border_sides = TBLR
+border_content_tint_weight = 0
+background_content_tint_weight = 0
+background_color = #bd93f9 100
+border_color = #252525 0
+gradient_id = 0
+background_color_hover = #bd93f9 100
+border_color_hover = #252525 0
+background_color_pressed = #bd93f9 100
+border_color_pressed = #252525 0
+gradient_id_pressed = 0
+
+# Background 7: Urgent task
+rounded = 0
+border_width = 0
+border_sides = TBLR
+border_content_tint_weight = 0
+background_content_tint_weight = 0
+background_color = #ff5555 100
+border_color = #252525 0
+gradient_id = 0
+background_color_hover = #ff5555 100
+border_color_hover = #252525 0
+background_color_pressed = #ff5555 100
+border_color_pressed = #252525 0
+gradient_id_pressed = 0
 
 #-------------------------------------
 # Panel
